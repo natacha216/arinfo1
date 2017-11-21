@@ -22,7 +22,7 @@ html {
 h1,
 h2,
 h3 {
-    font-weight: 300;
+    font-weight: 320;
     text-transform: uppercase;
 }
 
@@ -171,8 +171,8 @@ header {
     text-align: center;
     color: green;
     margin-right: 10px;
-    
-    
+
+
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
@@ -184,8 +184,9 @@ header {
     text-align: center;
     color: red;
     margin-right: 10px;
-    
-    line-height: 120%;   /* déplace l'élément */
+
+    line-height: 120%;
+    /* déplace l'élément */
     vertical-align: middle;
     margin-top: -5px;
 }
@@ -248,7 +249,7 @@ header {
 }
 
 .plan-box div:first-child {
-    background-color: aqua;
+    background-color: azure;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
@@ -263,3 +264,112 @@ header {
 }
 
 .plan-box ul li {}
+
+/*------ fin price ---------*/
+
+/*---- nos centres de formation -----*/
+h3 {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+
+.lieux {
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin-top: 100px;
+}
+
+.pl {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.pl img {
+    height: 35%;
+    width: 80%;
+}
+
+
+.icon {
+    display: block;
+    font-size:  150%;
+    color:  #748068;
+    width: 30px;
+    text-align:  center;
+}
+
+.text i,
+.text p {
+    display:  inline-block;
+    margin-right: 10px;
+}
+
+.mail {
+    text-decoration: underline;
+    color:  #748068;
+}
+/*---- fin nos centres de formation ----*/
+/*--- nos references -----*/
+
+.references {
+    background-color: darkgrey;
+    color: white;
+}
+
+h5 {
+    font-size: 110px;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-13%, -60%);
+    font-family: 'Lato', sans-serif;
+}
+
+.profil {
+    border-top: 50px;
+    margin-top: 25px;
+}
+
+.photo-ref {
+    height: 60px;
+    width: 60px;
+    border-radius: 75px;
+    background-position: center;
+    background-size: cover;
+}
+
+.nom {
+    display: inline-block;
+    position: absolute;
+    transform: translate(10%, 60%);
+}
+
+.span-1-of-3 {
+    width: 360px;
+    display: inline-block;
+}
+
+.para {
+    margin-top: 130px;
+    font-style: italic;
+}
+
+/*---- fin nos references ------*/
+
+/*----- footer -----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
