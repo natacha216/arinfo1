@@ -268,15 +268,16 @@ header {
 /*------ fin price ---------*/
 
 /*---- nos centres de formation -----*/
+
 h3 {
     margin-top: 20px;
     font-weight: 300;
     font-size: 25px;
     text-transform: uppercase;
-    
+
 }
 
-.lieux {
+#lieux {
     font-family: 'Lato', 'Arial', sans-serif;
     margin-top: 100px;
 }
@@ -295,26 +296,28 @@ h3 {
 
 .icon {
     display: block;
-    font-size:  150%;
-    color:  #748068;
+    font-size: 150%;
+    color: #748068;
     width: 30px;
-    text-align:  center;
+    text-align: center;
 }
 
 .text i,
 .text p {
-    display:  inline-block;
+    display: inline-block;
     margin-right: 10px;
 }
 
 .mail {
     text-decoration: underline;
-    color:  #748068;
+    color: #748068;
 }
+
 /*---- fin nos centres de formation ----*/
+
 /*--- nos references -----*/
 
-.references {
+#references {
     background-color: darkgrey;
     color: white;
 }
@@ -354,22 +357,82 @@ h5 {
 .para {
     margin-top: 130px;
     font-style: italic;
+    padding-bottom: 30px;
 }
 
 /*---- fin nos references ------*/
 
 /*----- footer -----*/
 
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
 
+footer nav {
+    list-style: none;
+    float: left;
+}
 
+.social-links {
+    list-style: none;
+    float: right;
+}
 
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
 
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
 
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
 
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
 
+.social-links li a:link,
+.social-links li a:active {
+    font-size: 180%;
+}
 
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
 
+.ion-social-facebook:hover {
+    color: #3B5998;
+}
 
+.ion-social-twitter:hover {
+    color: #50ABF1;
+}
 
+.ion-social-instagram:hover {
+    color: #E2405E;
+}
 
-
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 10px;
+}
