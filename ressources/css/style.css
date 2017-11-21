@@ -68,7 +68,7 @@ h2:after {
 header {
     /* background-color: aqua; */
     background-image: linear-gradient(rgba(70, 176, 244, 0.7), rgba(71, 108, 234, 0.7)), url(img/blackswan.jpg);
-    height: 100vh;
+    height: 150vh;
     background-size: cover;
     background-position: center;
     margin-bottom: 50px;
@@ -120,6 +120,7 @@ header {
 }
 
 /*------ fin btn --------*/
+
 
 /*---- nav ----------*/
 
@@ -230,26 +231,26 @@ header {
     clear: both;
 }
 
-/*------------------------*/
+/*--------- price ---------------*/
 
 #price {
     background: #fff;
 }
 
 .plan-box {
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #e8e8e8;
+    border: 1px solid #c1c1c1;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px #be314a;
+    box-shadow: 0px 2px 5px #bfbdbe;
 }
 
 .plan-box div {
     padding: 15px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #676767;
 }
 
 .plan-box div:first-child {
-    background-color: azure;
+    background-color: #e8e8e8;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
@@ -263,7 +264,9 @@ header {
     list-style: none;
 }
 
-.plan-box ul li {}
+.plan-box ul li {
+    
+}
 
 /*------ fin price ---------*/
 
